@@ -2,9 +2,9 @@ import java.util.Scanner;
 
 public class Delete {
 	
-	static float add(int x, float y)
+	static float add(int x, double d)
 	{
-		return x+y;
+		return (float) (x+d);
 	}
 	static float add(float x, int y)
 	{
@@ -25,7 +25,7 @@ public class Delete {
 //			rev = rev + n.charAt(i);
 //		}
 //		System.out.println(rev);
-		System.out.println(add(2,3));
+		System.out.println(add(2,3.0));
 		
 		
 

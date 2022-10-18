@@ -24,7 +24,7 @@ public class StreamApi3 {
 //		emp[1] = new Emp1(2,"singh");
 //		emp[2] = new Emp1(3, "rajput");
 		Stream<Emp1> s = emp.stream().filter(i->i.ename=="singh");
-		s.forEach(i->System.out.println(i.ename));
+		s.forEach(i->System.out.println(i.eid + " : " + i.ename));
 		//s.forEach(System.out::println);
 		//emp.forEach(i->System.out.println(emp[i].ename));
 		
